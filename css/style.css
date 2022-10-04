@@ -1,0 +1,164 @@
+@charset "utf-8";
+
+/*=========RESET=========*/
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  
+/*=========LAYOUT=========*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#principal {
+    width: 1280px;
+    margin:0 auto;
+    background-color: rgb(255, 255, 255);
+}
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.h1-lateral {
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+p {
+    margin-top: 5px;
+    line-height:25px;
+    font-size: 15px;
+}
+
+.p-lateral {
+    color: white;
+}
+
+
+
+header {
+    background-image:url("../imagens/bck-header.jpg");
+    background-repeat: no-repeat; 
+    display:flex;
+    justify-content: space-between;
+}
+
+#conteudo {
+    margin-top: -12px;
+
+}
+
+#logo {
+    width: 180px;
+    height: 180px;
+    padding-top: 12px;
+    padding-left: 20px;
+}
+
+nav {
+    width: 1000px;
+}
+
+ul {
+    list-style-type:none;
+    margin-top: 15px;
+    margin-left: -25px;
+    margin-right: 121px;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+ul li {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+ul li a {
+    color:rgb(195, 8, 8);
+    text-decoration:none;
+}
+
+ul li:hover {
+    text-decoration:underline;
+}
+
+
+#principal {
+    background-color: #ee8e34;
+}
+
+#destaque-principal {
+    background-color: ;
+    margin-top: -37px;
+    padding: 18px 20px;
+    display:flex;
+}
+
+.destaque-01 {
+    margin-left: 7px;
+    margin-right: 23px;
+}
+
+.destaque-02 {
+    margin-right: 23px;
+}
+
+.destaque-03 {
+    margin-right: 23px;
+}
+
+.destaque-04 {
+    margin-right: -20px;
+}
+
+
+.bt {
+    padding: 10px 20px;
+    background-color:#D64D00;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.bt:hover {
+    background-color: rgb(255, 183, 0);
+    color: red;
+}
+
+
+#destaque-principal2 {
+    display: flex;
+    padding: 18px 20px;
+}
+
+aside {
+    margin-left: 32px;
+    background-color:  #D64D00;
+    margin: 15px;
+    padding: 21px 15px 20px 51px;
+    justify-items: center;
+}
+
+footer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D64D00;
+    margin-top: 10px;
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+    
+}

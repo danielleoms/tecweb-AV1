@@ -50,7 +50,7 @@ header {
     justify-content: space-between;
 }
 
-#conteudo {
+#tit-nav {
     margin-top: -12px;
 
 }
@@ -137,7 +137,7 @@ ul li:hover {
 }
 
 
-#destaque-principal2 {
+#destaques-inferiores {
     display: flex;
     padding: 18px 20px;
 }
